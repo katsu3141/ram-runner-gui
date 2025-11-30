@@ -1,0 +1,38 @@
+# ============================
+# Python & Conda/Venvs
+# ============================
+__pycache__/
+*.pyc
+*.pyo
+
+# Directorios de Entornos Virtuales
+# ESTO ES CRUCIAL: Evita subir todos los paquetes de Conda.
+ram_runner_env/
+venv/
+.venv/
+env/
+ENV/
+
+# ============================
+# Archivos Temporales y Logs
+# ============================
+*.log
+*.sqlite
+*.db
+*.tmp
+*.temp
+
+# ============================
+# Archivos de IDEs y Sistema Operativo
+# ============================
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ============================
+# Exclusiones Específicas del Proyecto
+# ============================
+# respaldo o temporal
+ram_runner copy.py
